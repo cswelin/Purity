@@ -12,10 +12,10 @@ CConfig::CConfig()
 	this->cmdPrefix = '.';
 
 	//Server Information
-	this->addServer("127.0.0.1", "22876560", 2243, false, "Purity", "#Purity", "");
+	this->addServer("127.0.0.1", "123", 2243, false, "Purity", "#Purity", "");
 
 	//User Information
-	this->addUser("Asniper","9292194","*",1);
+	this->addUser("Asniper","123","*",1);
 }
 void CConfig::addServer(std::string host, std::string password, int port, 
 						bool randomNick, std::string nick, string channel, string chanPass)

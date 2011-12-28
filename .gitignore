@@ -16,6 +16,8 @@
 /tmp
 /ipch
 /Purity/.svn
+
 *.user
 *.old
 *.log
+*.sdf
